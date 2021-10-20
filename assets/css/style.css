@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+/* .main-header {
+    display: flex;
+     Defines how to distribute the empty space between child elements 
+    padding: 60px;
+    background: #13293d;
+    color: #fff;
+  } */
+
+  .main-header {
+    display: flex;
+    flex-wrap: wrap;
+    /* Defines how to distribute the empty space between child elements */
+     background: #13293d;
+    color: #fff;
+    backgrond: cover;
+  }
+
+
+
+.profile_pic {
+    border-radius: 80%;
+}
+
+
+
