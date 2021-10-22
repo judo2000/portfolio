@@ -53,13 +53,13 @@ body {
   }
 
 .text_box h1 {
-    font-size: 3em;
+    font-size: 4em;
     text-transform: uppercase;
     padding-top: 0;
 }
 
 .text_box h2 {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 hr {
