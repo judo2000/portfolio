@@ -7,7 +7,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 1.7;
     color: #777;
     padding: 30px;
@@ -21,20 +21,59 @@ body {
     color: #fff;
   } */
 
-  .main-header {
+/* .header {
+    display: flex;
+    height: 35vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(128, 214, 113, 0.8), 
+        rgba(40, 180, 131, 0.8));
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 25vh, 0 100%);
+    position: relative;
+} */
+
+.header {
     display: flex;
     flex-wrap: wrap;
-    /* Defines how to distribute the empty space between child elements */
-     background: #13293d;
-    color: #fff;
-    backgrond: cover;
+    height: 42vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(12, 186, 186, 0.5), 
+        rgba(56, 0, 54, 0.5)),
+        url(../img/code.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 37vh, 0 100%);
+   /* Defines how to distribute the empty space between child elements */
+   color: #fff;
   }
 
+  .header_img {
+      text-align: center;
+      align-items: center;
+      padding: 20px 40px 0 40px;
+  }
 
+  .header_img img {
+    width: 100%;
+    border-radius: 100%;
+  }
 
-.profile_pic {
-    border-radius: 80%;
+  .head_text {
+      display: flex;
+      margin: 0 auto;
+     
+  }
+
+  .text_box {
+      justify-content: center;
+      padding: 40px;
+  }
+
+hr {
+    display: flex;
+    justify-content: center;
+    
 }
-
-
-
