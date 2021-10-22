@@ -18,7 +18,7 @@ body {
     flex-wrap: wrap;
     /* I learned to do the backgrand gradient over the image from 
     Advanced CSS and Sass: Flexbox, Grid, Annimation and More! - by Jonas Schmedtmann at https://www.udemy.com/ */
-    height: 40vh;
+    height: 60vh;
     background-image: linear-gradient(
         to right bottom,
         rgba(12, 186, 186, 0.5), 
@@ -26,44 +26,41 @@ body {
         url(../img/code.jpg);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 35vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
    /* Defines how to distribute the empty space between child elements */
    color: #fff;
    padding: 40px;
-   justify-content: flex-start;
-}
-
-.header_img {
-    justify-content: center;
+   
 }
 
 .header_img img {
     display: flex;
-    width: 60%;
+    width: 100%;
     border-radius: 82%;
     padding: 0;
 }
 
-.head_text {
+.header_text {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 hr {
-    display: flex;
-    justify-content: center;
-    
+    width: 80%;
 }
 
-@media screen and (max-width: 576px) {
-    .text_box h1 {
+@media screen and (max-width: 768px) {
+    .header_text h1 {
       font-size: 1.4em;
     }
-    .text_box h2 {
+    .header_text h2 {
         font-size: 1.2em;
-    }
-
-    .header {
-        justify-content: center;
     }
 
     .header_img {
