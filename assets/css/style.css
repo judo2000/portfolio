@@ -67,6 +67,28 @@ hr {
     width: 80%;
 }
 
+.about_me {
+    background-color: #2C4152;
+    color: #fff;
+    padding: 4px;
+}
+
+.my_work {
+    padding-top: 20px;
+}
+
+.contact_me {
+    padding-top: 30px;
+}
+
+.contact_me_text {
+    background-color: #2C4152;
+    color: #fff;
+    padding: 4px;
+    }
+
+
+
 @media screen and (max-width: 768px) {
     .header_text h1 {
       font-size: 1.4em;
