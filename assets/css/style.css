@@ -26,7 +26,7 @@ body {
         url(../img/code.jpg);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 58vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
    /* Defines how to distribute the empty space between child elements */
    color: #fff;
    padding: 40px;
@@ -49,7 +49,19 @@ body {
     justify-content: center;
 }
 
-
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #2C4152;
+  }
+  
+  nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
 
 hr {
     width: 80%;
@@ -61,5 +73,9 @@ hr {
     }
     .header_text h2 {
         font-size: 1.2em;
+    }
+
+    nav a {
+        width: 100%;
     }
   }
