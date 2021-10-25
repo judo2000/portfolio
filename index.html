@@ -1,63 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <nav>
-        <a href="#about_me">About Me</a>
-        <a href="#my_work">My Work</a>
-        <a href="#contact_me">Contact Me</a>
+    <title>Stephen Moore - Portfolio</title>
+  </head>
+
+  <body>
+    <!-- bootstrap nav bar -->
+    <nav class="navbar navbar-expand-lg nav_style">
+        <div class="container-fluid">
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon white-text"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">My Work</a>
+                </li>
+                
+            </ul>
+        </div>
     </nav>
+
     <header class="header">
-        <div class="header_img">
-           <img src="assets/img/stephen_moore_london_2012.jpg" alt="">
-        </div>
-        <div class="header_text">
-            <h1>Stephen Moore</h1>
-            <hr>
-            <h2>Software Engineer</h2>
-        </div>
+        <div class="row">
+            <div class="col-lg-5 header_img centered">
+                <img src="assets/img/stephen_moore_london_2012.jpg" alt="Picture of Stephen Moore">
+            </div>
+            <div class="col-lg-7 header_text text-center">
+                <h1>Stephen Moore</h1>
+                <hr>
+                <h2>Software Engineer</h2>
+            </div>
+        </div> 
     </header>
 
-    <section>
-        <div id="about_me" class="about_me">
-            <h1>About Me</h1>
-            <p>
-                My name is Stephen Moore.  I am a Sofware Engineer.  I obviously need more information here.  I have also practiced the martial of judo 
-                for the past 33 years and I am a 5th degree black belt.  I am also the head instructor at <a http://www.denverjudo.com" target="_blank">Denver Judo</a>. 
-                I am also the head coach of the US Paralympic Judo team.
-            </p>
-        </div>
-    </section>
-
-    <section>
-        <div id="my_work" class="my_work">
-            
-                <h1>My Work</h1>
+    <main>
+        <section>
+            <div id="about" class="about_me">
+                <h1>About Me</h1>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam totam illo autem mollitia sed rerum iure quaerat, ratione doloremque asperiores reiciendis consequuntur dolor aut inventore incidunt deserunt voluptatibus sunt magnam, sint ea. Nulla optio dolore maxime temporibus id facere dolores quisquam distinctio unde eius quae aperiam, modi labore voluptatem deleniti, vitae recusandae. Debitis fugiat minima provident natus eaque unde corrupti dignissimos, molestias maxime nesciunt id nulla. Id ad sequi ipsam inventore! Ratione ipsum perferendis asperiores, soluta quidem magni hic culpa maxime voluptatum iure quae enim minus modi amet sapiente quasi eum ea sint labore. Eveniet autem repudiandae accusantium eos dolorum. Recusandae aspernatur odit impedit dolores error pariatur praesentium repellat cupiditate autem quibusdam, quo tempore nostrum, tempora sequi saepe quia asperiores repellendus commodi. Amet numquam placeat quod, tenetur ex nemo fugit laboriosam! Consequatur esse quibusdam at quia? Eaque et a odio excepturi officia eos aliquam. Ab iure illum nihil dolorum quibusdam?
+                    My name is Stephen Moore.  I am currently studing to become a full-stack web developer/software engineer.  I have 
+                    work in web development for more than 15 years but am now working to add to my skillset.  I love technology and coding. 
                 </p>
-        </div>
-    </section>
 
-    <section>
-        <div id="contact_me" class="contact_me">
-            <div class="contact_me_text">
-                <h1>Contact Me</h1>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam totam illo autem mollitia sed rerum iure quaerat, ratione doloremque asperiores reiciendis consequuntur dolor aut inventore incidunt deserunt voluptatibus sunt magnam, sint ea. Nulla optio dolore maxime temporibus id facere dolores quisquam distinctio unde eius quae aperiam, modi labore voluptatem deleniti, vitae recusandae. Debitis fugiat minima provident natus eaque unde corrupti dignissimos, molestias maxime nesciunt id nulla. Id ad sequi ipsam inventore! Ratione ipsum perferendis asperiores, soluta quidem magni hic culpa maxime voluptatum iure quae enim minus modi amet sapiente quasi eum ea sint labore. Eveniet autem repudiandae accusantium eos dolorum. Recusandae aspernatur odit impedit dolores error pariatur praesentium repellat cupiditate autem quibusdam, quo tempore nostrum, tempora sequi saepe quia asperiores repellendus commodi. Amet numquam placeat quod, tenetur ex nemo fugit laboriosam! Consequatur esse quibusdam at quia? Eaque et a odio excepturi officia eos aliquam. Ab iure illum nihil dolorum quibusdam?
+                    My other passion in life is judo.  I have practied judo for just over 33 years.  I am the head instructor along with my wife at 
+                    <a href="http://www.denverjudo.com" target="_blank">Denver Judo</a>.  I am also a former World and Paralympic champion and have been the 
+                    head coach of the USA Paralympic Judo Team since 20010.
                 </p>
             </div>
-        </div>
-    </section>
-     
-</body>
+        </section>
+        
+        <section>
+            <div id="work" class="my_work">
+                <h1>My Work</h1>
+                <p>
+                    Here are links to my most recent projects.  If you click on the images will be taken to the projects live.  
+                </p>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center pb-2">
+                        <img src="https://via.placeholder.com/600x300.png/09f/fff" alt="">
+                    </div>
+                </div>
+                <div class="row py-10px d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-end pe-1">
+                        <img src="https://via.placeholder.com/297x200.png/09f/fff" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex justify-content-start ps-1">
+                        <img src="https://via.placeholder.com/297x200.png/09f/fff"  alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <div id="contact" class="contact_me">
+                <div class="contact_me_text">
+                    <h1>Contact Me</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam totam illo autem mollitia sed rerum iure quaerat, ratione doloremque asperiores reiciendis consequuntur dolor aut inventore incidunt deserunt voluptatibus sunt magnam, sint ea. Nulla optio dolore maxime temporibus id facere dolores quisquam distinctio unde eius quae aperiam, modi labore voluptatem deleniti, vitae recusandae. Debitis fugiat minima provident natus eaque unde corrupti dignissimos, molestias maxime nesciunt id nulla. Id ad sequi ipsam inventore! Ratione ipsum perferendis asperiores, soluta quidem magni hic culpa maxime voluptatum iure quae enim minus modi amet sapiente quasi eum ea sint labore. Eveniet autem repudiandae accusantium eos dolorum. Recusandae aspernatur odit impedit dolores error pariatur praesentium repellat cupiditate autem quibusdam, quo tempore nostrum, tempora sequi saepe quia asperiores repellendus commodi. Amet numquam placeat quod, tenetur ex nemo fugit laboriosam! Consequatur esse quibusdam at quia? Eaque et a odio excepturi officia eos aliquam. Ab iure illum nihil dolorum quibusdam?
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>

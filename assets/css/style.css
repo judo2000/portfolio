@@ -13,12 +13,32 @@ body {
     padding: 20px;
 }
 
+.nav_style {
+    background-color: #2C4152;
+    color: white;
+    font-weight: 800;
+}
+
+.nav_style a {
+    color: white;
+    font-weight: 800;
+}
+
+nav a:hover {
+    background-color:rgba(12, 186, 186, 0.5);
+    color: white;
+}
+
+.nav_style a:hover {
+    color: white;
+}
+
 .header {
     display: flex;
     flex-wrap: wrap;
     /* I learned to do the backgrand gradient over the image from 
     Advanced CSS and Sass: Flexbox, Grid, Annimation and More! - by Jonas Schmedtmann at https://www.udemy.com/ */
-    height: 65vh;
+    /* height: 65vh; */
     background-image: linear-gradient(
         to right bottom,
         rgba(12, 186, 186, 0.5), 
@@ -26,51 +46,41 @@ body {
         url(../img/code.jpg);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%); */
    /* Defines how to distribute the empty space between child elements */
    color: #fff;
    padding: 40px;
-   
 }
 
 .header_img img {
-    display: flex;
-    width: 100%;
-    border-radius: 82%;
-    padding: 0;
+    width: 80%;
+    border-radius: 100%;
+}
+
+.centered {
+    text-align:center;
 }
 
 .header_text {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    flex: 1;
     align-items: center;
     justify-content: center;
 }
 
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    background-color: #2C4152;
-  }
-  
-  nav a {
-    color: #fff;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-  }
 
 hr {
-    width: 80%;
+    width: 100%;
+    border: 2px solid white
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .about_me {
     background-color: #2C4152;
     color: #fff;
-    padding: 4px;
+    padding: 10px;
 }
 
 .my_work {
@@ -84,12 +94,15 @@ hr {
 .contact_me_text {
     background-color: #2C4152;
     color: #fff;
-    padding: 4px;
+    padding: 10px;
+}
+
+
+
+/* @media screen and (max-width: 872) {
+    .header_text {
+        justify-content: flex-start;
     }
-
-
-
-@media screen and (max-width: 768px) {
     .header_text h1 {
       font-size: 1.4em;
     }
@@ -101,3 +114,19 @@ hr {
         width: 100%;
     }
   }
+
+  @media screen and (max-width: 568px) {
+    .header_text {
+        justify-content: flex-start;
+    }
+    .header_text h1 {
+      font-size: 1.2em;
+    }
+    .header_text h2 {
+        font-size: 1.1em;
+    }
+
+    nav a {
+        width: 100%;
+    }
+  } */
