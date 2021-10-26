@@ -33,9 +33,10 @@ nav a:hover {
     color: white;
 }
 
+
 .header {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     /* I learned to do the backgrand gradient over the image from 
     Advanced CSS and Sass: Flexbox, Grid, Annimation and More! - by Jonas Schmedtmann at https://www.udemy.com/ */
     /* height: 65vh; */
@@ -77,7 +78,8 @@ section {
     padding-bottom: 20px;
 }
 
-.about_me {
+
+footer, .about_me {
     background-color: #2C4152;
     color: #fff;
     padding: 10px;
