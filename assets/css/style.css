@@ -13,6 +13,7 @@ body {
     padding: 20px;
 }
 
+
 .nav_style {
     background-color: #2C4152;
     color: white;
@@ -130,4 +131,10 @@ footer, .about_me {
     background-color: #2C4152;
     color: #fff;
     padding: 10px;
+}
+
+@media screen and (max-width: 580px) {
+    section {
+        padding-left: 18px;
+    }
 }
