@@ -89,6 +89,39 @@ footer, .about_me {
     padding-top: 20px;
 }
 
+.work_big_img {
+    background-image: url(../img/all_about_judo.png);
+    opacity: .3;
+    width: 600px;
+    height: 300px;
+}
+
+.work_big_img:hover {
+    opacity: .7;
+}
+
+.work_big_text {
+    height: 100%;
+}
+
+.work_big_text_head {
+    font-size: 1em;
+}
+
+.work_big_text_sub {
+    font-size: .8em;
+}
+
+.work_big_text .card {
+    padding: 0;
+}
+.work_big_text .card .card-body {
+    background-color: #868484;
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+}
+
 .contact_me {
     padding-top: 30px;
 }
@@ -98,37 +131,3 @@ footer, .about_me {
     color: #fff;
     padding: 10px;
 }
-
-
-
-/* @media screen and (max-width: 872) {
-    .header_text {
-        justify-content: flex-start;
-    }
-    .header_text h1 {
-      font-size: 1.4em;
-    }
-    .header_text h2 {
-        font-size: 1.2em;
-    }
-
-    nav a {
-        width: 100%;
-    }
-  }
-
-  @media screen and (max-width: 568px) {
-    .header_text {
-        justify-content: flex-start;
-    }
-    .header_text h1 {
-      font-size: 1.2em;
-    }
-    .header_text h2 {
-        font-size: 1.1em;
-    }
-
-    nav a {
-        width: 100%;
-    }
-  } */
