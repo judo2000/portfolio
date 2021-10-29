@@ -10,13 +10,13 @@ body {
     font-size: 1em;
     line-height: 1.7;
     color: #777;
-    padding: 20px;
 }
 
 .nav_style {
     background-color: #2C4152;
     color: white;
     font-weight: 800;
+    padding: 10px;
 }
 
 .nav_style a {
@@ -50,7 +50,7 @@ nav a:hover {
     /* clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%); */
    /* Defines how to distribute the empty space between child elements */
    color: #fff;
-   padding: 40px;
+   padding: 20px;
 }
 
 .header_img img {
@@ -124,7 +124,7 @@ footer, .about_me {
     opacity: 1;
 }
 
-.work_small div:first-child  a div
+.work_small div:first-child  a div 
 {
     background-image: url(../img/daniel-josef-AMssSjUaTY4-unsplash.jpg);
     width: 297px;
@@ -139,7 +139,7 @@ footer, .about_me {
     height: 150px;
     opacity: .4;
 }
-.work_small div:first-child, div:last-child  a div:hover {
+.work_small div a div:hover {
     opacity: .7;
 }
 
