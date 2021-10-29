@@ -18,6 +18,7 @@ hr {
     border-radius: 5px;
 }
 
+/* Override the bootstrap navbar color settings */
 .nav_style {
     background-color: #2C4152;
     color: white;
@@ -35,17 +36,10 @@ hr {
     color: white;
 }
 
-/* .nav_style a:hover {
-    color: white;
-} */
-
 
 .header {
-    /* display: flex;
-    flex-wrap: wrap; */
     /* I learned to do the backgrand gradient over the image from 
     Advanced CSS and Sass: Flexbox, Grid, Annimation and More! - by Jonas Schmedtmann at https://www.udemy.com/ */
-    /* height: 65vh; */
     background-image: linear-gradient(
         to right bottom,
         rgba(12, 186, 186, 0.5), 
@@ -53,10 +47,8 @@ hr {
         url(../img/code.jpg);
     background-size: cover;
     background-position: top;
-    /* clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%); */
-   /* Defines how to distribute the empty space between child elements */
-   color: #fff;
-   padding: 60px;
+    color: #fff;
+    padding: 60px;
 }
 
 .header_img img {
@@ -142,7 +134,7 @@ footer .about_me, a:hover {
 
 .work_small div:last-child  a div
 {
-    background-image: url(../img/anton-maksimov-juvnsky-wrkNQmhmdvY-unsplash.jpg);
+    background-image: url(../img/denver_judo.jpg);
     width: 297px;
     height: 150px;
     opacity: .4;
@@ -180,8 +172,7 @@ footer .about_me, a:hover {
     margin-top: 20px;
 }
 
-
-
+/* Helps better align sections on smaller screens */
 @media screen and (max-width: 580px) {
     section {
         padding-left: 18px;
