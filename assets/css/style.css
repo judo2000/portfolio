@@ -50,7 +50,7 @@ nav a:hover {
     /* clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%); */
    /* Defines how to distribute the empty space between child elements */
    color: #fff;
-   padding: 20px;
+   padding: 60px;
 }
 
 .header_img img {
