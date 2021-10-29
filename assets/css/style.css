@@ -12,6 +12,12 @@ body {
     color: #777;
 }
 
+hr {
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
 .nav_style {
     background-color: #2C4152;
     color: white;
@@ -24,14 +30,14 @@ body {
     font-weight: 800;
 }
 
-nav a:hover {
+.nav_style a:hover {
     background-color:rgba(12, 186, 186, 0.5);
     color: white;
 }
 
-.nav_style a:hover {
+/* .nav_style a:hover {
     color: white;
-}
+} */
 
 
 .header {
@@ -67,12 +73,6 @@ nav a:hover {
     justify-content: center;
 }
 
-
-hr {
-    width: 100%;
-    border: 2px solid white
-}
-
 section {
     padding-top: 20px;
 }
@@ -83,6 +83,14 @@ footer, .about_me {
     color: #fff;
     padding: 10px;
     margin-top: 20px;
+}
+
+footer .about_me, a {
+    color: #fff;
+}
+
+footer .about_me, a:hover {
+    color: gray;
 }
 
 .my_work div
@@ -134,7 +142,7 @@ footer, .about_me {
 
 .work_small div:last-child  a div
 {
-    background-image: url(../img/background_297x150.png);
+    background-image: url(../img/anton-maksimov-juvnsky-wrkNQmhmdvY-unsplash.jpg);
     width: 297px;
     height: 150px;
     opacity: .4;
@@ -166,14 +174,13 @@ footer, .about_me {
 }
 
 .contact_me {
-    padding-top: 30px;
-}
-
-.contact_me_text {
     background-color: #2C4152;
     color: #fff;
     padding: 10px;
+    margin-top: 20px;
 }
+
+
 
 @media screen and (max-width: 580px) {
     section {
