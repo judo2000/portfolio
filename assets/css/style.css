@@ -110,8 +110,10 @@ p a:hover a:visited {
     color:#1e1e1e
 }
 
+.about-me {
+    padding-top :4rem;
+}
 .about-info .box-shadow-full {
-    padding-top: 4rem;
     padding-bottom: 4rem;
   }
   .about-info .about-img {
