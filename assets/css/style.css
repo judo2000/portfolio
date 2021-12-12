@@ -10,6 +10,7 @@ body {
     font-size: 1em;
     line-height: 1.7;
     color: #777;
+    background-color: #E0E0E0;
 }
 
 hr {
@@ -19,8 +20,12 @@ hr {
 }
 
 /* Override the bootstrap navbar color settings */
+#navbar {
+    overflow: hidden;
+}
+
 .nav_style {
-    background-color: #2C4152;
+    background-color: #3A606E;
     color: white;
     font-weight: 800;
     padding: 10px;
@@ -32,7 +37,7 @@ hr {
 }
 
 .nav_style a:hover {
-    background-color:rgba(12, 186, 186, 0.5);
+    background-color: rgba(12, 186, 186, 0.5);
     color: white;
 }
 
@@ -40,10 +45,11 @@ hr {
 .header {
     /* I learned to do the backgrand gradient over the image from 
     Advanced CSS and Sass: Flexbox, Grid, Annimation and More! - by Jonas Schmedtmann at https://www.udemy.com/ */
-    background-image: linear-gradient(
-        to right bottom,
-        rgba(12, 186, 186, 0.5), 
-        rgba(56, 0, 54, 0.5)),
+    background-image: linear-gradient(to right bottom,
+            rgba(123, 159, 172, 0.5),
+            /* rgba(12, 186, 186, 0.5),  */
+            rgba(123, 109, 141, 0.5)),
+        /* rgba(56, 0, 54, 0.5)), */
         url(../img/code.jpg);
     background-size: cover;
     background-position: top;
@@ -57,7 +63,7 @@ hr {
 }
 
 .centered {
-    text-align:center;
+    text-align: center;
 }
 
 .header_text {
@@ -65,28 +71,42 @@ hr {
     justify-content: center;
 }
 
+main {
+    padding: 16px;
+}
+
 section {
     padding-top: 20px;
 }
 
+.box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  }
 
-footer, .about_me {
+footer,
+#about_me {
     background-color: #2C4152;
     color: #fff;
     padding: 10px;
     margin-top: 20px;
 }
 
-footer .about_me, a {
+footer, #about_me,
+a {
     color: #fff;
 }
 
-footer .about_me, a:hover {
+footer, #about_me,
+a:hover {
     color: gray;
 }
 
-.my_work div
- a  {
+.my_work div a {
     text-decoration: none;
 }
 
@@ -124,21 +144,20 @@ footer .about_me, a:hover {
     opacity: 1;
 }
 
-.work_small div:first-child  a div 
-{
+.work_small div:first-child a div {
     background-image: url(../img/daniel-josef-AMssSjUaTY4-unsplash.jpg);
     width: 297px;
     height: 150px;
     opacity: .4;
 }
 
-.work_small div:last-child  a div
-{
+.work_small div:last-child a div {
     background-image: url(../img/denver_judo.jpg);
     width: 297px;
     height: 150px;
     opacity: .4;
 }
+
 .work_small div a div:hover {
     opacity: .7;
 }
@@ -147,19 +166,19 @@ footer .about_me, a:hover {
     height: 100%;
 }
 
-.work_small_text_head  {
+.work_small_text_head {
     font-size: 1em;
 }
 
-.work_small_text_sub  {
+.work_small_text_sub {
     font-size: .8em;
 }
 
-.work_small_img .work_small_text .card  {
+.work_small_img .work_small_text .card {
     padding: 0;
 }
 
-.work_small_text  .card .card-body {
+.work_small_text .card .card-body {
     color: white;
     font-weight: bold;
     opacity: 1;
