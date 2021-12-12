@@ -6,13 +6,21 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1em;
     line-height: 1.7;
     color: #777;
     background-color: #E0E0E0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e1e1e;
+}
 hr {
     width: 100%;
     border: 2px solid #fff;
@@ -88,21 +96,65 @@ section {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   }
 
-footer,
-#about_me {
+.box-shadow-about {
+    text-decoration: none;
+    box-shadow: 0 0 0 4px #cde1f8;
+}
+
+p a {
+    color:#777;
+}
+
+p a:hover a:visited {
+    color:#1e1e1e
+}
+
+.about-info .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .about-info .about-img {
+    margin-bottom: 2rem;
+  }
+  .about-info .about-img img {
+    margin-left: 10px;
+  }
+  @media (min-width: 767px) {
+    .about-info .box-pl2 {
+      margin-top: 3rem;
+      padding-left: 0rem;
+    }
+  }
+.title-small {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+
+.progress {
+    background-color: #cde1f8;
+  margin: 0.5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: 0.7rem;
+}
+
+.progress .progress-bar {
+    height: 0.7rem;
+    background-color: #7B6D8D;
+  }
+
+footer {
     background-color: #2C4152;
     color: #fff;
     padding: 10px;
     margin-top: 20px;
 }
 
-footer, #about_me,
-a {
+footer,a {
     color: #fff;
 }
 
-footer, #about_me,
-a:hover {
+footer, a:hover {
     color: gray;
 }
 
