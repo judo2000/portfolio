@@ -36,12 +36,17 @@ hr {
     background-color: #3A606E;
     color: white;
     font-weight: 800;
-    padding: 10px;
 }
 
 .nav_style a {
     color: white;
     font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.nav_style .nav-item {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .nav_style a:hover {
@@ -61,9 +66,8 @@ hr {
         url(../img/code.jpg);
     background-size: cover;
     background-position: top;
-    color: #fff;
     padding: 60px;
-    height: 90vh;
+    
 }
 
 .header_img img {
@@ -75,9 +79,26 @@ hr {
     text-align: center;
 }
 
-.header_text {
-    align-items: center;
+.header_main {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    color: #fff;
+
+}
+
+.display-1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #fff;
+}
+
+.display-2 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #fff;
 }
 
 main {
