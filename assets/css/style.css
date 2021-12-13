@@ -54,6 +54,10 @@ hr {
     color: white;
 }
 
+.active {
+    text-decoration: underline;
+    text-decoration-color: #7B6D8D;
+}
 
 .header {
     /* I learned to do the backgrand gradient over the image from 
@@ -133,6 +137,7 @@ p a:hover a:visited {
 
 .about-me {
     padding-top :4rem;
+    margin-bottom: 3rem;
 }
 .about-info .box-shadow-full {
     padding-bottom: 4rem;
@@ -149,6 +154,13 @@ p a:hover a:visited {
       padding-left: 0rem;
     }
   }
+
+.title {
+    margin-bottom: 4rem;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+}
 .title-small {
     font-weight: 600;
     color: #1e1e1e;
@@ -182,7 +194,31 @@ footer, a:hover {
     color: gray;
 }
 
-.my_work div a {
+.my_work {
+    padding-top :4rem;
+    margin-bottom: 3rem;
+}
+
+.work-box {
+    margin-bottom: 3rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #fff;
+  }
+  .work-box:hover img {
+    transform: scale(1.3);
+  }
+  
+  .work-img {
+    display: block;
+    overflow: hidden;
+  }
+  .work-img img {
+    transition: all 1s;
+  }
+
+
+/* .my_work div a {
     text-decoration: none;
 }
 
@@ -258,7 +294,7 @@ footer, a:hover {
     color: white;
     font-weight: bold;
     opacity: 1;
-}
+} */
 
 .contact_me {
     background-color: #2C4152;
