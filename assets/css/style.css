@@ -27,6 +27,14 @@ hr {
     border-radius: 5px;
 }
 
+.sect_pt4 {
+    padding-top: 6rem;
+  }
+  
+  .sect_mt4 {
+    margin-top: 6rem;
+  }
+
 /* Override the bootstrap navbar color settings */
 #navbar {
     overflow: hidden;
@@ -74,7 +82,7 @@ hr {
     background-size: cover;
     background-position: top;
     padding: 60px;
-    
+    height: 90vh;
 }
 
 .header_img img {
@@ -112,9 +120,9 @@ main {
     padding: 16px;
 }
 
-section {
-    padding-top: 20px;
-}
+/* section {
+    margin-top: 20px;
+} */
 
 .box_shadow_full {
     padding: 3rem 1.25rem;
@@ -137,10 +145,22 @@ p a:hover a:visited {
     color:#1e1e1e
 }
 
-.about_me {
+#anchor {
+    scroll-margin-top: 100px;
+  }
+.about_section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.about_section .about_img {
+    margin-bottom: 2rem;
+    margin-left: 10px;
+  }
+/* .about_me {
     padding-top :4rem;
     margin-bottom: 1rem;
-}
+} */
 .about_info .box_shadow_full {
     padding-bottom: 4rem;
   }
@@ -151,8 +171,8 @@ p a:hover a:visited {
     margin-left: 10px;
   }
   @media (min-width: 767px) {
-    .about_info .box-pl2 {
-      margin-top: 3rem;
+    .about-section {
+      margin-top: 4rem;
       padding-left: 0rem;
     }
   }
