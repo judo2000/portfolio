@@ -175,6 +175,7 @@ p a:hover a:visited {
     font-size: 1rem;
 }
 
+
 .progress {
     background-color: #cde1f8;
   margin: 0.5rem 0 1.2rem 0;
@@ -188,18 +189,18 @@ p a:hover a:visited {
   }
 
 footer {
-    background-color: #2C4152;
+    background-color: #3A606E;
     color: #fff;
     padding: 10px;
     margin-top: 20px;
 }
 
 footer,a {
-    color: #fff;
+    color: #E0E0E0;
 }
 
-footer, a:hover {
-    color: gray;
+footer, a:hover, a:visited {
+    color: #E0E0E0;
 }
 
 .my_work {
@@ -229,89 +230,9 @@ footer, a:hover {
       height: 200px;
   }
 
-
-/* .my_work div a {
-    text-decoration: none;
-}
-
-.work_big_img {
-    background-image: url(../img/all_about_judo.png);
-    opacity: .4;
-    width: 600px;
-    height: 300px;
-}
-
-.work_big_img:hover {
-    opacity: .7;
-}
-
-.work_big_text {
-    height: 100%;
-}
-
-.work_big_text_head {
-    font-size: 1em;
-}
-
-.work_big_text_sub {
-    font-size: .8em;
-}
-
-.work_big_text .card {
-    padding: 0;
-}
-
-.work_big_text .card .card-body {
-    background-color: #868484;
-    color: white;
-    font-weight: bold;
-    opacity: 1;
-}
-
-.work_small div:first-child a div {
-    background-image: url(../img/daniel-josef-AMssSjUaTY4-unsplash.jpg);
-    width: 297px;
-    height: 150px;
-    opacity: .4;
-}
-
-.work_small div:last-child a div {
-    background-image: url(../img/denver_judo.jpg);
-    width: 297px;
-    height: 150px;
-    opacity: .4;
-}
-
-.work_small div a div:hover {
-    opacity: .7;
-}
-
-.work_small_text {
-    height: 100%;
-}
-
-.work_small_text_head {
-    font-size: 1em;
-}
-
-.work_small_text_sub {
-    font-size: .8em;
-}
-
-.work_small_img .work_small_text .card {
-    padding: 0;
-}
-
-.work_small_text .card .card-body {
-    color: white;
-    font-weight: bold;
-    opacity: 1;
-} */
-
 .contact_me {
-    background-color: #2C4152;
+    background-color: #7B6D8D;
     color: #fff;
-    padding: 10px;
     margin-top: 20px;
 }
 

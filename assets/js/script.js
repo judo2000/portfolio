@@ -2,11 +2,16 @@ $(function() {
     // target navbar elements
     let navBarSC = $('.navbar-collapse');
     let navBarNav = $('.navbar-nav');
+    let footerEl = $('#footer')
 
     
     navBarNav.on('click', function(e) {
         navBarSC.removeClass('show');
     });
+
+    footerEl.on('click', function(e) {
+        navBarSC.removeClass('show');
+    })
 
     
     $("ul.navbar-nav li").click(function() {
