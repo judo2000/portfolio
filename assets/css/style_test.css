@@ -28,11 +28,12 @@ hr {
 }
 
 .sect_pt4 {
-    padding-top: 6rem;
+   padding-top: 4rem; 
   }
   
   .sect_mt4 {
-    margin-top: 6rem;
+    margin-top: 4rem;
+
   }
 
 /* Override the bootstrap navbar color settings */
@@ -82,7 +83,6 @@ hr {
     background-size: cover;
     background-position: top;
     padding: 60px;
-    height: 100vh;
 }
 
 .header_img img {
@@ -125,7 +125,7 @@ main {
 } */
 
 .box_shadow_full {
-    padding: 2rem 1.25rem;
+    padding: 3rem 1.25rem;
     position: relative;
     background-color: #fff;
     z-index: 2;
@@ -151,7 +151,6 @@ p a:hover a:visited {
 } */
 
 .about_section .about_img {
-    margin-bottom: 2rem;
     margin-left: 10px;
   }
 /* .about_me {
@@ -159,17 +158,16 @@ p a:hover a:visited {
     margin-bottom: 1rem;
 } */
 .about_info .box_shadow_full {
-    padding-bottom: 4rem;
+   
   }
   .about_info .about_img {
-    margin-bottom: 2rem;
+
   }
   .about_info .about_img img {
     margin-left: 10px;
   }
   @media (min-width: 767px) {
     .about-section {
-      margin-top: 4rem;
       padding-left: 0rem;
     }
   }
@@ -208,7 +206,6 @@ footer {
     background-color: #3A606E;
     color: #fff;
     padding: 10px;
-    margin-top: 20px;
 }
 
 footer,a {
@@ -217,11 +214,6 @@ footer,a {
 
 footer, a:hover, a:visited {
     color: #E0E0E0;
-}
-
-.my_work, .contact_me, .about_me {
-    padding-top :2rem;
-    margin-bottom: 1rem;
 }
 
 .work_box {
@@ -251,31 +243,12 @@ footer, a:hover, a:visited {
     color: #fff;
 }
 
-
-
 /* Helps better align sections on smaller screens */
-@media screen and (max-width: 850px) { 
-    /* @media (min-width: 767px) { */
-    /* section {
+@media (min-width: 767px) {
+    section {
         padding-left: 18px;
-    } */
-    .display_1 {
-        font-size: 2rem;
-    }
-    
-    .display_2 {
-        font-size: 1.5rem;
-        font-weight: 300;
-        line-height: 1.1;
-        color: #fff;
     }
     title {
-        font-size: 12rem;
-    }
-    .anchor {
-        display: block;
-        height: 200px;
-        margin-top: -200px;
-        visibility: hidden;
+        font-size: 2rem;
     }
 }
