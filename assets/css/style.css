@@ -82,7 +82,6 @@ hr {
     background-size: cover;
     background-position: top;
     padding: 60px;
-    height: 100vh;
 }
 
 .header_img img {
@@ -250,7 +249,19 @@ footer, a:hover, a:visited {
     background-color: #7B6D8D;
     color: #fff;
 }
+.skill_info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
+.jQuery_icon {
+    width: 15%;
+}
+
+.fab {
+    color: #000;
+}
 
 
 /* Helps better align sections on smaller screens */
