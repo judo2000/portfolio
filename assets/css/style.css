@@ -7,7 +7,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1.3rem;
   line-height: 1.7;
   color: #777;
   background-color: #e0e0e0;
@@ -200,33 +200,40 @@ a:visited {
   margin-left: 10px;
 }
 
+.skills {
+  font-size: 1.3rem;
+}
+
 .skill_info {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.progress {
+/* .progress {
   background-color: #cde1f8;
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
   height: 0.7rem;
-}
+} */
 
-.progress .progress-bar {
+/* .progress .progress-bar {
   height: 0.7rem;
   background-color: #7b6d8d;
-}
+} */
 
 /* Icon Styles */
-.jQuery_icon {
+/* .jQuery_icon {
   width: 15%;
 }
 
 .fab,
-.far {
+.far,
+.fa-brands {
   color: #000;
-}
+} */
+
+
 
 /* My Work section styling */
 .work_box {
